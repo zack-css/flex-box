@@ -1,0 +1,90 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    
+    
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+.container1 {
+    display: flex;
+    flex-direction: row; /* direção*/
+    justify-content: flex-start; /*HORIZONtal -- empURRA PARA UM LADO AO OUTRO */
+    align-items: center; /*  vertical -- EMPUARA PARA BAIXO OU CIMA */
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row; /* direção*/
+    justify-content: flex-end; /*HORIZONtal -- empURRA PARA UM LADO AO OUTRO */
+    align-items: center; /*  vertical -- EMPUARA PARA BAIXO OU CIMA */
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row; /* direção*/
+    justify-content: center; /*HORIZONtal -- empURRA PARA UM LADO AO OUTRO */
+    align-items: center; /*  vertical -- EMPUARA PARA BAIXO OU CIMA */
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row; /* direção*/
+    justify-content: space-between; /*HORIZONtal -- empURRA PARA UM LADO AO OUTRO */
+    align-items: center; /*  vertical -- EMPUARA PARA BAIXO OU CIMA */
+}
+.container5 {
+    display: flex;
+    flex-direction: row; /* direção*/
+    justify-content: space-around; /*HORIZONtal -- empURRA PARA UM LADO AO OUTRO */
+    align-items: center; /*  vertical -- EMPUARA PARA BAIXO OU CIMA */
+}
+.container6 {
+    display: flex;
+    flex-direction: row; /* direção*/
+    justify-content: space-evenly; /*HORIZONtal -- empURRA PARA UM LADO AO OUTRO */
+    align-items: center; /*  vertical -- EMPUARA PARA BAIXO OU CIMA */
+}
+.container-exercicioB{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: start;
+}
+.container-desafio{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: start;
+}
